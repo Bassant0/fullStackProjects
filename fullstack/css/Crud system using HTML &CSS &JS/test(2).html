@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://hagerrabea.github.io/Crud-System/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud system</title>
+    <link rel="stylesheet" href="./test_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/test(2).css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.1104.0" data-gr-ext-installed=""><div id="StayFocusd-infobar" style="display: none; top: 0px; background-color: darkgray;">
+    <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+    <span id="StayFocusd-infobar-msg"></span>
+    <span id="StayFocusd-infobar-links">
+        <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="StayFocusd-infobar-hide">hide once</a>
+    </span>
+</div>
+    <div class="container w-50 shadow my-5 py-5" style="background-color: rgb(169, 130, 205);">
+        <h1 style="font-family: 'Courier New', Courier, monospace;">CRU product Price system</h1>
+        <label for="productName"style="font-family: 'Courier New', Courier, monospace;">productName:</label>
+        <input type="text" class="form-control" id="productName">
+        <label for=""style="font-family: 'Courier New', Courier, monospace;">productCategory:</label>
+        <input type="text" class="form-control" id="productCategory">
+        <label for=""style="font-family: 'Courier New', Courier, monospace;">productPrice:</label>
+        <input type="text" class="form-control" id="productPrice">
+        <label for=""style="font-family: 'Courier New', Courier, monospace;">productDescription:</label>
+       <textarea id="productDescription" class="form-control"></textarea>
+       <button class="btn btn-outline-info mt-3 " style="background-color: rgb(226, 127, 218);"  id="update" onclick="addProduct();">add product</button>
+       <button class="btn btn-outline-info mt-3" style="background-color: seashell;"   onclick="clearInputs();">clear</button>
+       
+        
+      </button>
+       <p id="error" class="text-danger"></p>
+
+      </div>
+      <input type="text" placeholder="search..." class="form-control w-25 mx-auto" id="searchInput" onkeyup="filterProducts()">
+      <table class="table container" id="tablecontainer" style="background-color: lightpink;">
+          <thead>
+              <tr><th style="color: aliceblue;">index:</th>
+              <th style="color: aliceblue;">name:</th>
+              <th style="color: aliceblue;">category</th>
+              <th style="color: aliceblue;">price:</th>
+              <th style="color: aliceblue;">Update</th>
+              <th style="color: aliceblue;">delete</th>
+          </tr></thead>
+          <tbody id="tbody" style="color: aliceblue;"></tbody>
+      </table>
+    
+        
+        <script src="./test_files/bootstrap.bundle.min.js.download"></script>
+<script src="./js/myScript.js"></script>
+
+<div id="forest-ext-shadow-host"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
